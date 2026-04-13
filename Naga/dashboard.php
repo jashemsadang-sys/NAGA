@@ -16,5 +16,6 @@ if(!isset($_SESSION['user'])){
 </head>
 <body>
     <h2>Welcome to my page, <?php echo $_SESSION['user']; ?></h2>
+    <a href="main.php">click me!</a>
 </body>
 </html>
